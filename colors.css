@@ -1,0 +1,55 @@
+.bg-color-black {
+  background-color: #3D2018;
+}
+
+.bg-color-white {
+  background-color: #BFAE91;
+}
+
+.bg-color-olive {
+  background-color: #A67D03;
+}
+
+.bg-color-yellow {
+  background-color: #D9AC25;
+}
+
+.bg-color-green {
+  background-color: #9E8C25;
+}
+
+.bg-color-orange {
+  background-color: #D95323;
+}
+
+.bg-color-red {
+  background-color: #8C251C;
+}
+
+.text-color-black {
+  color: #3D2018;
+}
+
+.text-color-white {
+  color: #BFAE91;
+}
+
+.text-color-olive {
+  color: #A67D03;
+}
+
+.text-color-yellow {
+  color: #D9AC25;
+}
+
+.text-color-green {
+  color: #9E8C25;
+}
+
+.text-color-orange {
+  color: #D95323;
+}
+
+.text-color-red {
+  color: #8C251C;
+}
