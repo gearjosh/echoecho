@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'buffonbold';
+  src: url('buffon-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'buffonheavy';
+  src: url('buffon-heavy-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'buffonregular';
+  src: url('buffon-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'buffonthin';
+  src: url('buffon-thin-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

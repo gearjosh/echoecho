@@ -1,1 +1,19 @@
+.font-buf-reg {
+  font-family: 'buffonregular';
+}
 
+.font-buf-bold {
+  font-family: 'buffonbold';
+}
+
+.font-buf-heavy {
+  font-family: 'buffonheavy';
+}
+
+.font-buf-thin {
+  font-family: 'buffonthin';
+}
+
+.font-magic {
+  font-family: 'supermagic';
+}
