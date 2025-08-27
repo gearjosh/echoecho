@@ -1,424 +1,374 @@
 <!DOCTYPE html>
 <html>
-  
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="img/favicon.ico" rel="shortcut icon" type="img/jpeg">
-    <link rel="stylesheet" href="fonts/buffon/stylesheet.css" type="text/css" media="all">
-    <link rel="stylesheet" href="fonts/supermagic/stylesheet.css" type="text/css" media="all">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link href="colors.css" rel="stylesheet" type="text/css" media="all">
-    <link href="styles.css" rel="stylesheet" type="text/css" media="all">
-    <title></title>
-  </head>
 
-  <body class="bg-color-white text-color-black font-buf-reg">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="img/favicon.ico" rel="shortcut icon" type="img/jpeg">
+  <link rel="stylesheet" href="fonts/buffon/stylesheet.css" type="text/css" media="all">
+  <link rel="stylesheet" href="fonts/munson/stylesheet.css" type="text/css" media="all">
+  <link rel="stylesheet" href="fonts/supermagic/stylesheet.css" type="text/css" media="all">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link href="colors.css" rel="stylesheet" type="text/css" media="all">
+  <link href="styles.css" rel="stylesheet" type="text/css" media="all">
+  <title>Echo.Echo Recording</title>
+</head>
 
-    <section
-      class="text-color-yellow bg-color-red h-20 w-full flex flex-row justify-between items-end pr-4 pl-3 pb-4 sticky top-0 z-10"
-      id="header">
-      <div class="flex flex-row justify-start">
-        <!-- <p class="font-magic text-5xl text-color-orange text-shadow-lg/50 text-shadow-black"><a href="index.html">Echo.Echo Recording</a></p> -->
-        <a href="index.html" class=""><img class="h-13" src="img/echoecho_horiz_text.png" alt="Echo.Echo's logo"></a>
+<body class="bg-color-white text-color-black font-munson-italic hyphens-auto">
+
+  <section
+    class="text-color-yellow bg-color-red h-18 sm:h-20 w-full flex flex-row justify-between items-end pr-4 pl-3 pb-4 sticky top-0 z-10"
+    id="header">
+    <a href="index.html" class=""><img class="h-10 sm:h-13" src="img/echoecho_horiz_text.png"
+        alt="Echo.Echo's logo"></a>
+    <div class="flex flex-row uppercase md:text-lg font-buf-bold">
+      <a class="ml-8 hover:text-pink-500" href="about.html">About</a>
+      <a class="ml-8 hover:text-pink-500" href="contact.html">Contact</a>
+    </div>
+  </section>
+
+  <section>
+    <div
+      class="bg-[url(img/banner.png)] bg-cover bg-center flex flex-col justify-between text-center text-shadow-lg/50 text-shadow-black h-120 p-8">
+      <h1 class="text-6xl md:text-8xl text-color-yellow font-mont uppercase mb-4">Echo echo recording</h1>
+      <h2 class="text-4xl md:text-5xl text-color-orange font-magic">vintage music production for a modern world</h2>
+    </div>
+
+    <div class="p-4 container mx-auto">
+      <div class="flex flex-col lg:flex-row justify-center lg:justify-between items-center mb-4">
+        <div class="flex flex-col items-center mb-4 lg:mb-0 lg:mr-4">
+          <img class="aspect-4/3 lg:max-h-100 rounded-t-lg" src="img/recording.png"
+            alt="a drum kit inside Echo Echo recording studio">
+          <h4
+            class="text-5xl text-color-green text-center text-shadow-black text-shadow-sm/50 bg-color-orange rounded-b-lg py-2 w-full font-magic">
+            Recording</h4>
+        </div>
+
+        <div class="flex flex-col items-center mb-4 lg:mb-0 lg:mr-4">
+          <img class="aspect-4/3 lg:max-h-100 rounded-t-lg" src="img/production.png"
+            alt="a Moog and a Roland synthesizer inside Echo Echo recording studio">
+          <h4
+            class="text-5xl text-color-green text-center text-shadow-black text-shadow-sm/50 bg-color-orange rounded-b-lg py-2 w-full font-magic">
+            Production</h4>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <img class="aspect-4/3 lg:max-h-100 rounded-t-lg" src="img/rehearsal.png"
+            alt="a rehearsal space with various instruments inside Echo Echo recording studio">
+          <h4
+            class="text-5xl text-color-green text-center text-shadow-black text-shadow-sm/50 bg-color-orange rounded-b-lg py-2 w-full font-magic">
+            Rehearsal</h4>
+        </div>
       </div>
-      <div class="flex flex-row uppercase md:text-lg font-buf-bold">
-        <a class="ml-8 hover:text-pink-500" href="about.html">About</a>
-        <a class="ml-8 hover:text-pink-500" href="contact.html">Contact</a>
-      </div>
-    </section>
 
-    <section class="">
-      <div class="bg-[url(img/studio_shots/DSC00415CONSOLEFULLBANNER.png)] bg-cover bg-center flex flex-col justify-between text-center text-shadow-lg/40 text-shadow-black h-120 p-4">
-        <h1 class="text-7xl sm:text-8xl text-color-yellow font-mont uppercase mb-4">Echo echo recording</h1>
-        <h2 class="text-4xl sm:text-5xl text-color-orange font-magic">vintage music production for a modern world</h2>
-      </div>
-
-      <h3 class="text-5xl font-buf-heavy text-center text-color-yellow bg-color-red text-shadow-lg/40 text-shadow-black p-4">Modern convenience. Vintage style.</h3>
-      
-      <div class="p-4 container mx-auto">
-        <div class="flex flex-col md:flex-row justify-center md:justify-around items-center bg-color-olive p-4 mb-4">
-          <div>
-            <img src="img/studio_shots/DSC00536.png" alt="a drum kit inside Echo Echo recording studio">
-            <h4 class="text-3xl text-color-red font-buf-bold">Recording</h4>
-          </div>
-
-          <div>
-            <img src="img/studio_shots/DSC00481.png" alt="a Moog and a Roland synthesizer inside Echo Echo recording studio">
-            <h4 class="text-3xl text-color-red font-buf-bold">Production</h4>
-          </div>
-
-          <div>
-            <img src="img/studio_shots/DSC00486.png" alt="a rehearsal space with various instruments inside Echo Echo recording studio">
-            <h4 class="text-3xl text-color-red font-buf-bold">Rehearsal</h4>
+      <div class="bg-color-green text-[#ddd] py-8 px-16 text-xl rounded-lg mb-4">
+        <div class="flex flex-row justify-around">
+          <div class="text-5xl md:text-6xl text-color-red uppercase text-center">
+            <h2 class="font-mont mb-4">Modern convenience.</h2>
+            <h2 class="font-magic mb-8">Vintage style.</h2>
           </div>
         </div>
-  
-        At echo echo we pride ourselves on blending the best of modern equipment with the nostalgic charm and sound of vintage
-        gear. Our audio engineers and producers are committed to capturing the vibe of your music while maintaining the classic
-        warmth and character that only vintage gear can provide.
-        
-        
-        Whether you're a solo artist, a band, or a voice-over artist, echo echo recording offers a wide range of services
-        tailored to your specific needs. From tracking and mixing to rehearsal and post-production, our studio is equipped with
-        the latest tools and software to ensure that your sound is nothing short of exceptional.
-        
-        
-        We believe in creating a collaborative and comfortable environment, fostering creativity and bringing out the best in
-        every artist. Our goal is to make your recording experience not just successful but also enjoyable and memorable.
-        
-        
-        So, if you're ready to take your music to the next level, join us at Echo.echo Recording and let our skilled team turn
-        your vision into reality. Experience the perfect blend of modern production and vintage charm at Echo echo Recording.
-  
-        <h2>Equipment</h2>
-  
-        <h3>Instruments</h3>
-        
-        Guitars-
-        
-        Fender
-        
-        Gibson
-        
-        Martin
-        
-        Danelectro
-        
-        Hofner
-        
-        Guild
-        
-        
-        Basses-
-        
-        Fender
-        
-        Rickenbacker
-        
-        Gibson
-        
-        Hofner
-        
-        
-        Keyboards-
-        
-        Rhodes Stage
-        
-        Wurlitzer
-        
-        Hammond A100 w/ Leslie 122
-        
-        Vibraphone
-        
-        Pump Organ
-        
-        Console Acoustic Piano
-        
-        
-        Synths -
-        
-        Roland Jupiter 8
-        
-        Moog Mini Moog
-        
-        Sequential Circuits Prophet 5
-        
-        ect.
-  
-        <h3>Amps</h3>
-        
-        Guitar Amps-
-        
-        Fender Showman
-        
-        Gibson
-        
-        Marshall
-        
-        Vox
-        
-        Hiwatt
-        
-        
-        Combos-
-        
-        Ampeg Rocketverb
-        
-        Marshall Jcm 800
-        
-        Marshall JMP
-        
-        Fender Vibrolux
-        
-        Fender Twin
-        
-        Fender '65 Deluxe
-        
-        Gibson Falcon
-        
-        Gibson Vangaurd
-        
-        Lyric 660
-        
-        Vox Cambridge
-        
-        
-        Bass Amps-
-        
-        Ampeg B18n
-        
-        Ampeg SVT 2 Pro
-        
-        Fender Bassman
-        
-        Genz Benz GBE750
-        
-        
-        
-        Cabinets-
-        
-        Ampeg 8x10
-        
-        Ampeg 2x15
-        
-        SWR 4x10
-        
-        
-        Orange 4x12
-        
-        Marshall 1960 4x12
-        
-        Emperor 4x12
-        
-        Vox 2x12
-        
-        Fender 2x12
-        
-        Hiwatt 4x12
-        
-        Sound City 4x12
-  
-        <h3>Outboard</h3>
-        
-        Preamps / Channel Strips-
-        
-        2 Capi VP28
-        
-        2 Api 512b
-        
-        2 Chandler Limited TG2
-        
-        2ch Summit TBA 200b
-        
-        2 Calrec 1061 channel
-        
-        4ch ADM 1268 w/ passive attenuators
-        
-        8ch BBC AM9/19b (no +48)
-        
-        4ch Hamptone HJFP2
-        
-        2 ADR Vocal Stressor
-        
-        *Telefunken (5)V72 / (2)V76 On Request
-        
-        
-        Dynamics-
-        
-        Federal AM/864u
-        
-        Ridge Farm Boiler
-        
-        Altec 436a Compressor
-        
-        #18 VCA Compressor
-        
-        2ch Valley People 610
-        
-        2 Chandler Limited LTD2
-        
-        Buzz Audio SOC-20
-        
-        2 Empirical Labs Distressor
-        
-        2 DBX 160vu
-        
-        2 DBX 160a
-        
-        2 Hairball 1176 Rev D
-        
-        2 Chandler Limited Germanium Comp
-        
-        Manley Vari-Mu
-        
-        Alan Smart C2
-        
-        
-        EQ-
-        
-        2 Capi 553F
-        
-        Chandler Limited Curve Bender
-        
-        IGS IQ Double Qualizer
-        
-        Manley Pultec Eq
-        
-        ITI MEP230 EQ (GML)
-        
-        Buzz Audio Req 2.2
-        
-        
-        FX-
-        
-        2 Roland CE 501
-        
-        Klemt Echolette 5
-        
-        Benson Spring Reverb
-        
-        Hamptone Spring Reverb
-        
-        Korg SD2000
-        
-        MF-101S Lowpass Filter
-        
-        MF-102S Ring Modulator
-        
-        MF-103S 12-stage Phaser
-        
-        MF-104m Analog Delay
-        
-        MF-107S Freqbox
-        
-        MF-108S Cluster Flux
-  
-        <h3>Microphones</h3>
-        
-        Condenser-
-        
-        2 Neumann um57 Tube
-        
-        2 Neumann 563 Tube
-        
-        2 Neumann u87
-        
-        2 Neumann 582 Tube
-        
-        2 Neumann km88
-        
-        
-        Flea 47 Superfet
-        
-        2 Sony c38b
-        
-        2 Oktava MK-13M Tube
-        
-        2 Oktava mk102
-        
-        2 Earthworks dm20
-        
-        2 DPA 4099
-        
-        2 Schoeps Cmc6
-        
-        2 Warm Audio u47 SAE Mods
-        
-        
-        Dynamic-
-        
-        4 Shure sm57
-        
-        2 Shure sm7b
-        
-        2 Shure beta 52
-        
-        4 Sennheiser 421
-        
-        2 Heil pr40
-        
-        2 BBC Omni Globe Mic
-        
-        Audix i5
-        
-        Akg d112
-        
-        2 Akg d24
-        
-        Audio Technica ATM25
-        
-        2 EV ND468
-        
-        
-        Ribbon-
-        
-        2 RCA 74b
-        
-        RCA bk11
-        
-        RCA bk5a
-        
-        2 Coles 4040
-        
-        2 Coles 4038
-        
-        2 Coles 4129 (m160)
-        
-        2 Apex 205 Oktavamod
-        
-        Royer 122
-        
-        Cascade Fathead 2
-        
-        
-        Other-
-        
-        4 DIs
-        
-        Drawmer Tube DI
-        
-        4 Radial SGI
-        
-        2 Fethead Booster
-        
-        2ch phantom power
-  
-        <h3>Recorders</h3>
-        
-        Yamaha Pm2000 32ch w/ transformer direct out, insert and mute mods, 16 ch of Neve eq mods.
-        
-        
-        Mac mini m1 w/ Pro Tools and Logic X
-        
-        Orion 32 32ch ad/da
-        
-        
-        MCI JH24 2” 24 MTR
-        
-        Behringer p16 headphone system
-        
-        
-        Dangerous ST Monitor Controller
-        
-        Adam S3X monitors w/sub
-        
-        Yamaha ns10s
-  
-        <!-- CAROUSEL goes here -->
-  
-        <a href="https://www.instagram.com/echoechorecording" target="_blank"><img src="img/instagram_white_28dp.png" alt="Instagram"></a>
-        <a href="https://www.facebook.com/echoechopdx" target="_blank"><img src="img/facebook_white_28dp.png" alt="Facebook"></a>
-        <a href="https://www.youtube.com/echoechorecording" target="_blank"><img src="img/youtube_white_28dp.png" alt="YouTube"></a>
+
+        <div class="text-justify">
+          <p class="mb-4">
+            At Echo.Echo we pride ourselves on blending the best of modern equipment with the nostalgic charm and sound
+            of vintage
+            gear. Our audio engineers and producers are committed to capturing the vibe of your music while maintaining
+            the classic
+            warmth and character that only vintage gear can provide.
+          </p>
+
+          <p class="mb-4">
+            Whether you're a solo artist, a band, or a voice-over artist, echo echo recording offers a wide range of
+            services
+            tailored to your specific needs. From tracking and mixing to rehearsal and post-production, our studio is
+            equipped with
+            the latest tools and software to ensure that your sound is nothing short of exceptional.
+          </p>
+
+          <p class="mb-4">
+            We believe in creating a collaborative and comfortable environment, fostering creativity and bringing out
+            the best in
+            every artist. Our goal is to make your recording experience not just successful but also enjoyable and
+            memorable.
+          </p>
+
+          <p class="mb-4">
+            So, if you're ready to take your music to the next level, join us at Echo.Echo Recording and let our skilled
+            team turn
+            your vision into reality. Experience the perfect blend of modern production and vintage charm at Echo.Echo
+            Recording.
+          </p>
+        </div>
       </div>
 
+      <div class="bg-color-yellow p-8 text-sm rounded-lg mb-8">
+        <h2 class="text-center text-6xl text-color-red font-magic mb-4">Equipment</h2>
+
+        <div class="flex flex-col lg:flex-row justify-between items-center lg:items-start">
+
+          <div class="lg:hidden w-full">
+            <h3 class="text-center text-3xl font-buf-bold mb-4">Recorders</h3>
+            <h4 class="text-2xl text-color-red font-mont uppercase">Consoles</h4>
+            <ul class="mb-4 list-disc list-inside">
+              <li>Yamaha PM2000 32ch w/ transformer direct out, insert and mute mods, 16 ch of Neve eq mods.</li>
+              <li>Mac Mini M1 w/ Pro Tools and Logic X</li>
+              <li>Orion 32 32ch ad/da</li>
+              <li>MCI JH24 2” 24 MTR</li>
+              <li>Behringer P16 headphone system</li>
+              <li>Dangerous ST Monitor Controller</li>
+            </ul>
+            <h4 class="text-2xl text-color-red font-mont uppercase">Speakers</h4>
+            <ul class="mb-4 list-disc list-inside">
+              <li>Adam S3X monitors w/sub</li>
+              <li>Yamaha NS10s</li>
+            </ul>
+          </div>
+
+          <div class="mb-4 w-full lg:w-1/4 lg:pr-4">
+
+            <div class="hidden lg:block">
+              <h3 class="text-center text-3xl font-buf-bold mb-4">Recorders</h3>
+              <h4 class="text-2xl text-color-red font-mont uppercase">Consoles</h4>
+              <ul class="mb-4 list-disc list-inside">
+                <li>Yamaha PM2000 32ch w/ transformer direct out, insert and mute mods, 16 ch of Neve eq mods.</li>
+                <li>Mac Mini M1 w/ Pro Tools and Logic X</li>
+                <li>Orion 32 32ch ad/da</li>
+                <li>MCI JH24 2” 24 MTR</li>
+                <li>Behringer P16 headphone system</li>
+                <li>Dangerous ST Monitor Controller</li>
+              </ul>
+              <h4 class="text-2xl text-color-red font-mont uppercase">Speakers</h4>
+              <ul class="mb-8 list-disc list-inside">
+                <li>Adam S3X monitors w/sub</li>
+                <li>Yamaha NS10s</li>
+              </ul>
+            </div>
+
+            <h3 class="text-center text-3xl font-buf-bold mb-4">Instruments</h3>
+
+            <h4 class="text-2xl text-color-red font-mont uppercase">Guitars</h4>
+            <ul class="mb-4 list-disc list-inside">
+              <li>Fender</li>
+              <li>Gibson</li>
+              <li>Martin</li>
+              <li>Danelectro</li>
+              <li>Hofner</li>
+              <li>Guild</li>
+            </ul>
+
+            <h4 class="text-2xl text-color-red font-mont uppercase">Basses</h4>
+            <ul class="mb-4 list-disc list-inside">
+              <li>Fender</li>
+              <li>Rickenbacker</li>
+              <li>Gibson</li>
+              <li>Hofner</li>
+            </ul>
+
+            <h4 class="text-2xl text-color-red font-mont uppercase">Keyboards</h4>
+            <ul class="mb-4 list-disc list-inside">
+              <li>Rhodes Stage</li>
+              <li>Wurlitzer</li>
+              <li>Hammond A100 w/ Leslie 122</li>
+              <li>Vibraphone</li>
+              <li>Pump Organ</li>
+              <li>Console Acoustic Piano</li>
+            </ul>
+
+            <h4 class="text-2xl text-color-red font-mont uppercase">Synths </h4>
+            <ul class="mb-4 list-disc list-inside">
+              <li>Roland Jupiter 8</li>
+              <li>Moog Mini Moog</li>
+              <li>Sequential Circuits Prophet 5</li>
+              <li>ect.</li>
+            </ul>
+          </div>
+
+          <div class="mb-4 w-full lg:w-1/4 lg:pr-4">
+            <h3 class="text-center text-3xl font-buf-bold mb-4">Amps</h3>
+            <h4 class="text-2xl text-color-red font-mont uppercase">Guitar Amps</h4>
+            <ul class="mb-4 list-disc list-inside">
+              <li>Fender Showman</li>
+              <li>Gibson</li>
+              <li>Marshall</li>
+              <li>Vox</li>
+              <li>Hiwatt</li>
+            </ul>
+            <h4 class="text-2xl text-color-red font-mont uppercase">Combos</h4>
+            <ul class="mb-4 list-disc list-inside">
+              <li>Ampeg Rocketverb</li>
+              <li>Marshall Jcm 800</li>
+              <li>Marshall JMP</li>
+              <li>Fender Vibrolux</li>
+              <li>Fender Twin</li>
+              <li>Fender '65 Deluxe</li>
+              <li>Gibson Falcon</li>
+              <li>Gibson Vangaurd</li>
+              <li>Lyric 660</li>
+              <li>Vox Cambridge</li>
+            </ul>
+            <h4 class="text-2xl text-color-red font-mont uppercase">Bass Amps</h4>
+            <ul class="mb-4 list-disc list-inside">
+              <li>Ampeg B18n</li>
+              <li>Ampeg SVT 2 Pro</li>
+              <li>Fender Bassman</li>
+              <li>Genz Benz GBE750</li>
+            </ul>
+            <h4 class="text-2xl text-color-red font-mont uppercase">Cabinets</h4>
+            <ul class="mb-4 list-disc list-inside">
+              <li>Ampeg 8x10</li>
+              <li>Ampeg 2x15</li>
+              <li>SWR 4x10</li>
+              <li>Orange 4x12</li>
+              <li>Marshall 1960 4x12</li>
+              <li>Emperor 4x12</li>
+              <li>Vox 2x12</li>
+              <li>Fender 2x12</li>
+              <li>Hiwatt 4x12</li>
+              <li>Sound City 4x12</li>
+            </ul>
+          </div>
+
+          <div class="mb-4 w-full lg:w-1/4 lg:pr-4">
+            <h3 class="text-center text-3xl font-buf-bold mb-4">Outboard</h3>
+            <h4 class="text-2xl text-color-red font-mont uppercase">Preamps & Channel Strips</h4>
+            <ul class="mb-4 list-disc list-inside">
+              <li>2 Capi VP28</li>
+              <li>2 Api 512b</li>
+              <li>2 Chandler Limited TG2</li>
+              <li>2ch Summit TBA 200b</li>
+              <li>2 Calrec 1061 channel</li>
+              <li>4ch ADM 1268 w/ passive attenuators</li>
+              <li>8ch BBC AM9/19b (no +48)</li>
+              <li>4ch Hamptone HJFP2</li>
+              <li>2 ADR Vocal Stressor</li>
+              <li>*Telefunken (5)V72 / (2)V76 On Request</li>
+            </ul>
+            <h4 class="text-2xl text-color-red font-mont uppercase">Dynamics</h4>
+            <ul class="mb-4 list-disc list-inside">
+              <li>Federal AM/864u</li>
+              <li>Ridge Farm Boiler</li>
+              <li>Altec 436a Compressor</li>
+              <li>#18 VCA Compressor</li>
+              <li>2ch Valley People 610</li>
+              <li>2 Chandler Limited LTD2</li>
+              <li>Buzz Audio SOC-20</li>
+              <li>2 Empirical Labs Distressor</li>
+              <li>2 DBX 160vu</li>
+              <li>2 DBX 160a</li>
+              <li>2 Hairball 1176 Rev D</li>
+              <li>2 Chandler Limited Germanium Comp</li>
+              <li>Manley Vari-Mu</li>
+              <li>Alan Smart C2</li>
+            </ul>
+            <h4 class="text-2xl text-color-red font-mont uppercase">EQ</h4>
+            <ul class="mb-4 list-disc list-inside">
+              <li>2 Capi 553F</li>
+              <li>Chandler Limited Curve Bender</li>
+              <li>IGS IQ Double Qualizer</li>
+              <li>Manley Pultec Eq</li>
+              <li>ITI MEP230 EQ (GML)</li>
+              <li>Buzz Audio Req 2.2</li>
+            </ul>
+            <h4 class="text-2xl text-color-red font-mont uppercase">FX</h4>
+            <ul class="mb-4 list-disc list-inside">
+              <li>2 Roland CE 501</li>
+              <li>Klemt Echolette 5</li>
+              <li>Benson Spring Reverb</li>
+              <li>Hamptone Spring Reverb</li>
+              <li>Korg SD2000</li>
+              <li>MF-101S Lowpass Filter</li>
+              <li>MF-102S Ring Modulator</li>
+              <li>MF-103S 12-stage Phaser</li>
+              <li>MF-104m Analog Delay</li>
+              <li>MF-107S Freqbox</li>
+              <li>MF-108S Cluster Flux</li>
+            </ul>
+          </div>
+
+          <div class="mb-4 w-full lg:w-1/4 lg:pr-4">
+            <h3 class="text-center text-3xl font-buf-bold mb-4">Microphones</h3>
+
+            <h4 class="text-2xl text-color-red font-mont uppercase">Condenser</h4>
+            <ul class="mb-4 list-disc list-inside">
+              <li>2 Neumann um57 Tube</li>
+              <li>2 Neumann 563 Tube</li>
+              <li>2 Neumann u87</li>
+              <li>2 Neumann 582 Tube</li>
+              <li>2 Neumann km88</li>
+              <li>Flea 47 Superfet</li>
+              <li>2 Sony c38b</li>
+              <li>2 Oktava MK-13M Tube</li>
+              <li>2 Oktava mk102</li>
+              <li>2 Earthworks dm20</li>
+              <li>2 DPA 4099</li>
+              <li>2 Schoeps Cmc6</li>
+              <li>2 Warm Audio u47 SAE Mods</li>
+            </ul>
+
+            <h4 class="text-2xl text-color-red font-mont uppercase">Dynamic</h4>
+            <ul class="mb-4 list-disc list-inside">
+              <li>4 Shure sm57</li>
+              <li>2 Shure sm7b</li>
+              <li>2 Shure beta 52</li>
+              <li>4 Sennheiser 421</li>
+              <li>2 Heil pr40</li>
+              <li>2 BBC Omni Globe Mic</li>
+              <li>Audix i5</li>
+              <li>Akg d112</li>
+              <li>2 Akg d24</li>
+              <li>Audio Technica ATM25</li>
+              <li>2 EV ND468</li>
+            </ul>
+
+            <h4 class="text-2xl text-color-red font-mont uppercase">Ribbon</h4>
+            <ul class="mb-4 list-disc list-inside">
+              <li>2 RCA 74b</li>
+              <li>RCA bk11</li>
+              <li>RCA bk5a</li>
+              <li>2 Coles 4040</li>
+              <li>2 Coles 4038</li>
+              <li>2 Coles 4129 (m160)</li>
+              <li>2 Apex 205 Oktavamod</li>
+              <li>Royer 122</li>
+              <li>Cascade Fathead 2</li>
+            </ul>
+
+            <h4 class="text-2xl text-color-red font-mont uppercase">Other</h4>
+            <ul class="mb-4 list-disc list-inside">
+              <li>4 DIs</li>
+              <li>Drawmer Tube DI</li>
+              <li>4 Radial SGI</li>
+              <li>2 Fethead Booster</li>
+              <li>2ch phantom power</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- CAROUSEL goes here -->
     </section>
 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
-  </body>
-  
+    <section id="footer" class="bg-color-red text-color-yellow h-20 w-full">
+      <div class="container flex flex-row justify-between items-center p-4 mx-auto h-full">
+        <p class="font-mont uppercase text-3xl"><a href="contact.html">Book a tour!</a></p>
+        <div class="flex flex-row justify-center items-center space-x-2">
+          <a href="https://www.instagram.com/echoechorecording" target="_blank"><img src="img/instagram_white_28dp.png"
+              alt="Instagram"></a>
+          <a href="https://www.facebook.com/echoechopdx" target="_blank"><img src="img/facebook_white_28dp.png"
+              alt="Facebook"></a>
+          <a href="https://www.youtube.com/echoechorecording" target="_blank"><img src="img/youtube_white_28dp.png"
+              alt="YouTube"></a>
+        </div>
+      </div>
+    </section>
+
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
 </html>

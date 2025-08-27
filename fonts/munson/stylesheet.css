@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'munsonbold';
+  src: url('Munson_Bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'munsonbolditalic';
+  src: url('Munson_BoldItalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'munson';
+  src: url('Munson_Roman-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'munsonitalic';
+  src: url('Munson_Italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

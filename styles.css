@@ -1,3 +1,8 @@
+ul {
+  padding-left: 1.125rem;
+  text-indent: -1.125rem;
+}
+
 .font-buf-reg {
   font-family: 'buffonregular';
 }
@@ -20,4 +25,20 @@
 
 .font-mont {
   font-family: "Montserrat", sans-serif;
+}
+
+.font-munson {
+  font-family: 'munson';
+}
+
+.font-munson-bold {
+  font-family: 'munsonbold';
+}
+
+.font-munson-italic {
+  font-family: 'munsonitalic';
+}
+
+.font-munson-bolditalic {
+  font-family: 'munsonbolditalic';
 }
