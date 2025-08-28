@@ -24,19 +24,22 @@
     id="header">
     <a href="index.html" class=""><img class="h-10 sm:h-13" src="img/echoecho_horiz_text.png"
         alt="Echo Echo's logo"></a>
-    <div class="flex flex-row uppercase md:text-lg font-buf-bold">
+    <div class="flex flex-row uppercase sm:text-lg md:text-2xl font-buf-bold">
       <a class="ml-8" href="about.html">About</a>
       <a class="ml-8" href="contact.html">Contact</a>
     </div>
   </section>
 
-  <section>
+  <section id="home">
     <div
       class="bg-[url(img/banner.png)] bg-cover bg-center flex flex-col justify-between text-center text-shadow-black h-120 p-8">
-      <h1 class="text-6xl md:text-8xl text-color-yellow font-mont text-shadow-lg/50 uppercase mb-4">Echo echo recording
+      <h1 class="text-6xl md:text-8xl text-color-yellow font-mont text-shadow-lg/50 uppercase mb-4">
+        Echoecho recording
       </h1>
-      <h2 class="text-4xl md:text-5xl text-color-orange font-magic text-shadow-md/50">vintage music production for a
-        modern world</h2>
+      <h2 class="text-4xl md:text-5xl text-color-orange font-magic text-shadow-sm/50">
+        vintage music production for a
+        modern world
+      </h2>
     </div>
 
     <div class="p-4 container mx-auto">
@@ -45,7 +48,7 @@
           <img class="aspect-4/3 lg:max-h-100 rounded-t-3xl" src="img/recording.png"
             alt="a drum kit inside Echo Echo recording studio">
           <div
-            class="flex flex-row justify-around items-center text-5xl text-color-green text-center text-shadow-black text-shadow-xs/50 bg-color-orange rounded-b-3xl py-2 w-full font-magic">
+            class="flex flex-row justify-around items-center text-5xl text-color-green text-center bg-color-orange rounded-b-3xl py-2 w-full font-magic">
 
             <div class="flex lg:hidden xl:flex flex-row space-x-1 h-8">
               <div class="xl:hidden 2xl:block dot-xs bg-color-red"></div>
@@ -70,7 +73,7 @@
           <img class="aspect-4/3 lg:max-h-100 rounded-t-3xl" src="img/production.png"
             alt="a Moog and a Roland synthesizer inside Echo Echo recording studio">
           <div
-            class="flex flex-row justify-around items-center text-5xl text-color-green text-center text-shadow-black text-shadow-xs/50 bg-color-orange rounded-b-3xl py-2 w-full font-magic">
+            class="flex flex-row justify-around items-center text-5xl text-color-green text-center bg-color-orange rounded-b-3xl py-2 w-full font-magic">
 
             <div class="flex lg:hidden xl:flex flex-row space-x-1 h-8">
               <div class="xl:hidden 2xl:block dot-xs bg-color-red"></div>
@@ -95,7 +98,7 @@
           <img class="aspect-4/3 lg:max-h-100 rounded-t-3xl" src="img/rehearsal.png"
             alt="a rehearsal space with various instruments inside Echo Echo recording studio">
           <div
-            class="flex flex-row justify-around items-center text-5xl text-color-green text-center text-shadow-black text-shadow-xs/50 bg-color-orange rounded-b-3xl py-2 w-full font-magic">
+            class="flex flex-row justify-around items-center text-5xl text-color-green text-center bg-color-orange rounded-b-3xl py-2 w-full font-magic">
 
             <div class="flex lg:hidden xl:flex flex-row space-x-1 h-8">
               <div class="xl:hidden 2xl:block dot-xs bg-color-red self-end"></div>
@@ -127,7 +130,7 @@
             <div class="dot-sm bg-color-olive self-end"></div>
           </div>
           <div class="text-5xl md:text-6xl text-color-red uppercase text-center w-max mx-4">
-            
+
             <h2 class="font-mont mb-4">Modern convenience.</h2>
             <h2 class="font-magic mb-8">Vintage style.</h2>
 
@@ -174,7 +177,55 @@
         </div>
       </div>
 
-      <div class="bg-color-yellow p-8 text-lg lg:text-sm rounded-3xl mb-4">
+      <!-- Image Gallery -->
+      <div class="bg-color-orange p-8 text-lg rounded-3xl mb-4">
+
+        <div class="flex flex-row justify-center sm:space-x-8">
+          <div class="hidden sm:flex flex-row h-10 justify-start space-y-2 space-x-2">
+            <div class="dot-xs bg-color-black self-center"></div>
+            <div class="dot-md bg-color-black"></div>
+            <div class="hidden md:block dot-lg bg-color-black"></div>
+            <div class="dot-sm bg-color-black self-end"></div>
+            <div class="dot-xs bg-color-black self-start"></div>
+          </div>
+        
+          <h2 class="text-center text-6xl text-color-olive font-magic mb-4">Gallery</h2>
+        
+          <div class="hidden sm:flex flex-row h-10 justify-start space-y-2 space-x-2">
+            <div class="dot-xs bg-color-black self-end"></div>
+            <div class="dot-xs bg-color-black self-start"></div>
+            <div class="hidden md:block dot-md bg-color-black self-end"></div>
+            <div class="dot-lg bg-color-black self-start"></div>
+            <div class="dot-sm bg-color-black self-center"></div>
+          </div>
+        </div>
+        <div class="flex flex-row justify-center items-center">
+          <!-- Images go here -->
+
+          <div class="flex-col justify-between items-center gallery hidden">
+            <img class="aspect-4/3 object-cover w-full rounded-3xl" src="img/pedals.png" alt="">
+          </div>
+
+          <div class="flex-col justify-between items-center gallery hidden">
+            <img class="aspect-4/3 object-cover w-full rounded-3xl" src="img/amps.png" alt="">
+          </div>
+
+          <div class="flex-col justify-between items-center gallery hidden">
+            <img class="aspect-4/3 object-cover w-full rounded-3xl" src="img/instruments.png" alt="">
+          </div>
+
+        </div>
+        <div class="flex flex-row justify-center h-8 items-end space-x-2 bg-color-orange mt-6">
+
+          <span class="dot-gallery cursor-pointer bg-color-red" onclick="currentImage(1)"></span>
+          <span class="dot-gallery cursor-pointer bg-color-red" onclick="currentImage(2)"></span>
+          <span class="dot-gallery cursor-pointer bg-color-red" onclick="currentImage(3)"></span>
+          
+        </div>
+      </div>
+
+      <!-- Equipment -->
+      <div class="bg-color-yellow py-8 px-4 text-lg lg:text-sm rounded-3xl mb-4">
         <div class="flex flex-row justify-center sm:space-x-8">
           <div class="hidden sm:flex flex-row h-10 justify-start space-y-2 space-x-2">
             <div class="hidden md:block dot-lg bg-color-orange"></div>
@@ -198,7 +249,7 @@
         <div class="flex flex-col px-8 lg:p-none lg:flex-row justify-between items-center lg:items-start">
 
           <div class="mb-4 lg:mb-0 w-full lg:w-1/5 lg:pr-4">
-            <img class="rounded-3xl w-5/6 mx-auto mb-2" src="img/recorders.png" alt="a reel-to-reel recorder">
+            <img class="rounded-3xl w-19/20 mx-auto mb-2" src="img/recorders.png" alt="a reel-to-reel recorder">
             <h3 class="text-center text-5xl lg:text-2xl xl:text-3xl font-buf-bold mb-4">Recorders</h3>
 
             <h4 class="text-2xl text-color-red font-mont uppercase">Consoles</h4>
@@ -219,7 +270,7 @@
           </div>
 
           <div class="mb-4 lg:mb-0 w-full lg:w-1/5 lg:pr-4">
-            <img class="rounded-3xl w-5/6 mx-auto mb-2" src="img/instruments.png" alt="hanging guitars">
+            <img class="rounded-3xl w-19/20 mx-auto mb-2" src="img/instruments.png" alt="hanging guitars">
             <h3 class="text-center text-5xl lg:text-2xl xl:text-3xl font-buf-bold mb-4">Instruments</h3>
 
             <h4 class="text-2xl text-color-red font-mont uppercase">Guitars</h4>
@@ -260,7 +311,7 @@
           </div>
 
           <div class="mb-4 lg:mb-0 w-full lg:w-1/5 lg:pr-4">
-            <img class="rounded-3xl w-5/6 mx-auto mb-2" src="img/amps.png" alt="amplifiers and speaker cabinets">
+            <img class="rounded-3xl w-19/20 mx-auto mb-2" src="img/amps.png" alt="amplifiers and speaker cabinets">
             <h3 class="text-center text-5xl lg:text-2xl xl:text-3xl font-buf-bold mb-4">Amps</h3>
             <h4 class="text-2xl text-color-red font-mont uppercase">Guitar Amps</h4>
             <ul class="mb-4 list-disc list-inside">
@@ -306,7 +357,7 @@
           </div>
 
           <div class="mb-4 lg:mb-0 w-full lg:w-1/5 lg:pr-4">
-            <img class="rounded-3xl w-5/6 mx-auto mb-2" src="img/outboard.png" alt="outboard effects">
+            <img class="rounded-3xl w-19/20 mx-auto mb-2" src="img/outboard.png" alt="outboard effects">
             <h3 class="text-center text-5xl lg:text-2xl xl:text-3xl font-buf-bold mb-4">Outboard</h3>
             <h4 class="text-2xl text-color-red font-mont uppercase">Preamps & Channel Strips</h4>
             <ul class="mb-4 list-disc list-inside">
@@ -364,7 +415,7 @@
           </div>
 
           <div class="w-full lg:w-1/5 lg:pr-4">
-            <img class="rounded-3xl w-5/6 mx-auto mb-2" src="img/microphones.png" alt="a shelf of microphones">
+            <img class="rounded-3xl w-19/20 mx-auto mb-2" src="img/microphones.png" alt="a shelf of microphones">
             <h3 class="text-center text-5xl lg:text-2xl xl:text-3xl font-buf-bold mb-4">Microphones</h3>
 
             <h4 class="text-2xl text-color-red font-mont uppercase">Condenser</h4>
@@ -437,10 +488,6 @@
           </div>
         </div>
       </div>
-
-      <!-- CAROUSEL goes here -->
-      <!-- I am a carousel!!! Behold me!!! -->
-      <!-- CAROUSEL goes here -->
     </div>
   </section>
 

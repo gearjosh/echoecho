@@ -45,6 +45,20 @@ a:hover {
 
 .font-munson-bolditalic {
   font-family: 'munsonbolditalic';
+}.gallery {
+  animation: fade 600ms ease-in both;
+}
+
+.dot-gallery {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  display: inline-block;
+  transition: all 400ms ease;
+}
+
+.dot-gallery:hover {
+  background-color: #A67D03;
 }
 
 .dot-lg {
@@ -69,4 +83,14 @@ a:hover {
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
