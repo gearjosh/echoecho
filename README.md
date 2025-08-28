@@ -1,4 +1,4 @@
-# vanilla_js_template
-## a vanilla js website template
+# Echo Echo Recording
+## a website
 
-A basic website template including jQuery and jQueryUI
+A website for Echo Echo Recording in Portland, Oregon, USA
