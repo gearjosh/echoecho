@@ -3,6 +3,10 @@ ul {
   text-indent: -1.125rem;
 }
 
+a:hover {
+  color: #9E8C25;
+}
+
 .font-buf-reg {
   font-family: 'buffonregular';
 }
