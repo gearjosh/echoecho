@@ -19,11 +19,15 @@
 }
 
 .bg-color-orange {
-  background-color: #D95323;
+  background-color: #AE4D29;
 }
 
 .bg-color-red {
   background-color: #8C251C;
+}
+
+.bg-color-pink {
+  background-color: #C29A8F;
 }
 
 .text-color-black {
@@ -47,9 +51,13 @@
 }
 
 .text-color-orange {
-  color: #D95323;
+  color: #AE4D29;
 }
 
 .text-color-red {
   color: #8C251C;
+}
+
+.text-color-pink {
+  color: #C29A8F;
 }
