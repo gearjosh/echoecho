@@ -45,7 +45,9 @@ a:hover {
 
 .font-munson-bolditalic {
   font-family: 'munsonbolditalic';
-}.gallery {
+}
+
+.gallery {
   animation: fade 600ms ease-in both;
 }
 
