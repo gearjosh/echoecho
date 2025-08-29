@@ -32,6 +32,9 @@ function showImages(n) {
   timeoutID = setTimeout(showImages, 5000);
 }
 
+// click listeners
+// add one to show any clicked image in a modal
+
 // initialize the first testimonial
 let galleryIndex = 0;
 let timeoutID;
