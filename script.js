@@ -29,7 +29,7 @@ function showImages(n) {
   images[galleryIndex - 1].style.display = "flex";
   dots[galleryIndex - 1].className += " dot-md";
   console.log('dots[galleryIndex -1].className: ', dots[galleryIndex -1].className)
-  timeoutID = setTimeout(showImages, 20000);
+  timeoutID = setTimeout(showImages, 5000);
 }
 
 // initialize the first testimonial

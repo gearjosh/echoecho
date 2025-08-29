@@ -52,15 +52,12 @@ a:hover {
 }
 
 .dot-gallery {
-  width: 1.5rem;
-  height: 1.5rem;
-  border-radius: 50%;
   display: inline-block;
-  transition: all 400ms ease;
 }
 
 .dot-gallery:hover {
   background-color: #A67D03;
+  transition: background-color 0ms;
 }
 
 .dot-lg {
