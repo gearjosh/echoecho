@@ -1,7 +1,7 @@
 # Echo Echo Recording
 ## [a website](gearjosh.github.io/echoecho/)
 
-A website for Echo Echo Recording in Portland, Oregon, USA
+A website for Echo Echo Recording in Portland, Oregon, USA. Styled with Tailwind CSS.
 
 To Do:
 - [x] lock in styling, colors, and fonts
