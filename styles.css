@@ -48,7 +48,7 @@ a:hover {
 }
 
 .gallery {
-  animation: fade 600ms ease-in both;
+  animation: fade 600ms ease-in-out both;
 }
 
 .dot-gallery {
