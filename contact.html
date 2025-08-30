@@ -30,25 +30,49 @@
     </section>
 
     <section id="contact" class="">
-      <h1>Contact Us</h1>
+      <div class="container mx-auto">
+        <div class="bg-color-green p-8 rounded-3xl my-4">
+          <div class="flex flex-row justify-center items-center sm:space-x-8">
+            <div class="hidden sm:flex flex-row h-10 justify-start space-y-2 space-x-2">
+              <div class="dot-xs bg-color-black self-center"></div>
+              <div class="dot-md bg-color-black"></div>
+              <div class="hidden md:block dot-lg bg-color-black"></div>
+              <div class="dot-sm bg-color-black self-end"></div>
+              <div class="dot-xs bg-color-black self-start"></div>
+            </div>
+          
+            <h2 class="text-center text-6xl text-color-orange font-magic mb-4">Contact Echo Echo</h2>
+          
+            <div class="hidden sm:flex flex-row h-10 justify-start space-y-2 space-x-2">
+              <div class="dot-xs bg-color-black self-end"></div>
+              <div class="dot-xs bg-color-black self-start"></div>
+              <div class="hidden md:block dot-md bg-color-black self-end"></div>
+              <div class="dot-lg bg-color-black self-start"></div>
+              <div class="dot-sm bg-color-black self-center"></div>
+            </div>
+          </div>
 
-      <img src="" alt="">
-      <img src="" alt="">
+          <h3 class="text-2xl font-mont mb-4 text-center uppercase">We'd love to hear from you!</h3>
+    
+          <img src="" alt="">
+          <img src="" alt="">
+    
+          <form class="flex flex-col justify-center items-center w-2/3 mx-auto" action="">
+            <label for="name">Name:</label>
+            <input class="rounded-full bg-color-white p-2 w-full mb-4" type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input class="rounded-full bg-color-white p-2 w-full mb-4" type="email" id="email" name="email" required>
+    
+            <label for="message">Message:</label>
+            <textarea class="rounded-4xl bg-color-white p-2 w-full mb-4" id="message" name="message" required></textarea>
+    
+            <button class="cursor-pointer rounded-full py-4 text-4xl uppercase font-buf-bold text-color-white bg-color-black transition-all duration-400 ease-out w-3/5" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
 
-      <form action="">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-
-        <button type="submit">Send</button>
-      </form>
-
-      <img src="img/echoecho_logo.jpg" alt="Echo Echo's logo">
+      <!-- <img src="img/echoecho_logo.jpg" alt="Echo Echo's logo"> -->
       <!-- map showing the location here -->
     </section>
 
