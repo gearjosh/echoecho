@@ -20,13 +20,13 @@
 <body class="bg-color-pink text-color-black font-munson-italic hyphens-auto">
 
   <section
-    class="text-color-yellow bg-color-red h-18 sm:h-20 w-full flex flex-row justify-between items-end pr-4 pl-3 pb-4 sticky top-0 z-10"
+    class="text-color-yellow bg-color-red h-16 sm:h-20 w-full flex flex-row justify-between items-end pr-4 pl-3 pb-4 sticky top-0 z-10"
     id="header">
-    <a href="index.html" class=""><img class="h-10 sm:h-13" src="img/echoecho_horiz_text.png"
+    <a href="index.html" class=""><img class="object-contain h-7 sm:h-13" src="img/echoecho_horiz_text.png"
         alt="Echo Echo's logo"></a>
     <div class="flex flex-row uppercase sm:text-lg md:text-2xl font-buf-bold">
-      <a class="ml-8" href="about.html">About</a>
-      <a class="ml-8" href="contact.html">Contact</a>
+      <a class="ml-4 sm:ml-8" href="about.html">About</a>
+      <a class="ml-4 sm:ml-8" href="contact.html">Contact</a>
     </div>
   </section>
 
@@ -36,11 +36,11 @@
 
   <section id="home">
     <div
-      class="bg-[url(img/banner.png)] bg-cover bg-center flex flex-col justify-between text-center text-shadow-black h-120 p-8">
-      <h1 class="text-6xl md:text-8xl text-color-yellow font-mont text-shadow-lg/50 uppercase mb-4">
+      class="bg-[url(img/banner.png)] bg-cover bg-center flex flex-col justify-between text-center text-shadow-black w-full h-80 sm:h-120 p-8">
+      <h1 class="text-5xl sm:text-6xl md:text-8xl text-color-yellow font-mont text-shadow-lg/50 uppercase mb-4">
         Echo Echo Recording
       </h1>
-      <h2 class="text-4xl md:text-5xl text-color-orange font-magic text-shadow-sm/50">
+      <h2 class="text-2xl sm:text-4xl md:text-5xl text-color-orange font-magic text-shadow-sm/50">
         vintage music production for a
         modern world
       </h2>
@@ -52,7 +52,7 @@
           <img class="aspect-4/3 lg:max-h-100 rounded-t-3xl" src="img/recording.png"
             alt="a drum kit inside Echo Echo recording studio">
           <div
-            class="flex flex-row justify-around items-center text-5xl text-color-green text-center bg-color-orange rounded-b-3xl py-2 w-full font-magic">
+            class="flex flex-row justify-around items-center text-4xl sm:text-5xl text-color-green text-center bg-color-orange rounded-b-3xl py-2 w-full font-magic">
 
             <div class="flex lg:hidden xl:flex flex-row space-x-1 h-8">
               <div class="xl:hidden 2xl:block dot-xs bg-color-red"></div>
@@ -77,7 +77,7 @@
           <img class="aspect-4/3 lg:max-h-100 rounded-t-3xl" src="img/production.png"
             alt="a Moog and a Roland synthesizer inside Echo Echo recording studio">
           <div
-            class="flex flex-row justify-around items-center text-5xl text-color-green text-center bg-color-orange rounded-b-3xl py-2 w-full font-magic">
+            class="flex flex-row justify-around items-center text-4xl sm:text-5xl text-color-green text-center bg-color-orange rounded-b-3xl py-2 w-full font-magic">
 
             <div class="flex lg:hidden xl:flex flex-row space-x-1 h-8">
               <div class="xl:hidden 2xl:block dot-xs bg-color-red"></div>
@@ -102,7 +102,7 @@
           <img class="aspect-4/3 lg:max-h-100 rounded-t-3xl" src="img/rehearsal.png"
             alt="a rehearsal space with various instruments inside Echo Echo recording studio">
           <div
-            class="flex flex-row justify-around items-center text-5xl text-color-green text-center bg-color-orange rounded-b-3xl py-2 w-full font-magic">
+            class="flex flex-row justify-around items-center text-4xl sm:text-5xl text-color-green text-center bg-color-orange rounded-b-3xl py-2 w-full font-magic">
 
             <div class="flex lg:hidden xl:flex flex-row space-x-1 h-8">
               <div class="xl:hidden 2xl:block dot-xs bg-color-red self-end"></div>
@@ -133,7 +133,7 @@
             <div class="dot-md bg-color-yellow"></div>
             <div class="dot-sm bg-color-yellow self-end"></div>
           </div>
-          <div class="text-5xl md:text-6xl text-color-red uppercase text-center w-max mx-4">
+          <div class="text-4xl sm:text-5xl md:text-6xl text-color-red uppercase text-center w-max mx-4">
 
             <h2 class="font-mont mb-4">Modern convenience.</h2>
             <h2 class="font-magic mb-8">Vintage style.</h2>
@@ -193,7 +193,7 @@
             <div class="dot-xs bg-color-black self-start"></div>
           </div>
         
-          <h2 class="text-center text-6xl text-color-olive font-magic mb-4">Gallery</h2>
+          <h2 class="text-center text-5xl sm:text-6xl text-color-olive font-magic mb-4">Gallery</h2>
         
           <div class="hidden sm:flex flex-row h-10 justify-start space-y-2 space-x-2">
             <div class="dot-xs bg-color-black self-end"></div>
@@ -295,36 +295,40 @@
             <img class="aspect-4/3 object-cover w-full rounded-3xl" src="img/gallery/22.png" alt="">
           </div>
         </div>
-        <div class="flex flex-row justify-center h-8 items-end space-x-2 bg-color-orange mt-6">
 
-          <span class="size-4 md:size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(1)"></span>
-          <span class="size-4 md:size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(2)"></span>
-          <span class="size-4 md:size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(3)"></span>
-          <span class="size-4 md:size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(4)"></span>
-          <span class="size-4 md:size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(5)"></span>
-          <span class="size-4 md:size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(6)"></span>
-          <span class="size-4 md:size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(7)"></span>
-          <span class="size-4 md:size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(8)"></span>
-          <span class="size-4 md:size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(9)"></span>
-          <span class="size-4 md:size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(10)"></span>
-          <span class="size-4 md:size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(11)"></span>
-          <span class="size-4 md:size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(12)"></span>
-          <span class="size-4 md:size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(13)"></span>
-          <span class="size-4 md:size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(14)"></span>
-          <span class="size-4 md:size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(15)"></span>
-          <span class="size-4 md:size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(16)"></span>
-          <span class="size-4 md:size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(17)"></span>
-          <span class="size-4 md:size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(18)"></span>
-          <span class="size-4 md:size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(19)"></span>
-          <span class="size-4 md:size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(20)"></span>
-          <span class="size-4 md:size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(21)"></span>
-          <span class="size-4 md:size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(22)"></span>
-          
+        <div class="hidden md:flex flex-row justify-center h-8 items-end space-x-2 bg-color-orange mt-6">
+          <span class="size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(1)"></span>
+          <span class="size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(2)"></span>
+          <span class="size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(3)"></span>
+          <span class="size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(4)"></span>
+          <span class="size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(5)"></span>
+          <span class="size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(6)"></span>
+          <span class="size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(7)"></span>
+          <span class="size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(8)"></span>
+          <span class="size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(9)"></span>
+          <span class="size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(10)"></span>
+          <span class="size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(11)"></span>
+          <span class="size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(12)"></span>
+          <span class="size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(13)"></span>
+          <span class="size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(14)"></span>
+          <span class="size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(15)"></span>
+          <span class="size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(16)"></span>
+          <span class="size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(17)"></span>
+          <span class="size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(18)"></span>
+          <span class="size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(19)"></span>
+          <span class="size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(20)"></span>
+          <span class="size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(21)"></span>
+          <span class="size-5 lg:size-6 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red" onclick="currentImage(22)"></span>
+        </div>
+
+        <div class="flex md:hidden flex-row justify-around h-8 items-end space-x-2 bg-color-orange mt-6 text-color-green font-magic text-4xl">
+          <span class="size-10 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red text-center" onclick="switchImage(-1)"><</span>
+          <span class="size-10 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red text-center" onclick="switchImage(1)">></span>
         </div>
       </div>
 
       <!-- Equipment -->
-      <div class="bg-color-yellow py-8 px-4 text-lg lg:text-sm rounded-3xl mb-4">
+      <div class="bg-color-yellow py-8 sm:py-none px-4 text-lg lg:text-sm rounded-3xl mb-4">
         <div class="flex flex-row justify-center sm:space-x-8">
           <div class="hidden sm:flex flex-row h-10 justify-start space-y-2 space-x-2">
             <div class="hidden md:block dot-lg bg-color-orange"></div>
@@ -334,7 +338,7 @@
             <div class="dot-xs bg-color-orange self-start"></div>
           </div>
 
-          <h2 class="text-center text-6xl text-color-red font-magic mb-4">Equipment</h2>
+          <h2 class="text-center text-5xl sm:text-6xl text-color-red font-magic mb-4">Equipment</h2>
 
           <div class="hidden sm:flex flex-row h-10 justify-start space-y-2 space-x-2">
             <div class="dot-xs bg-color-orange self-end"></div>
@@ -345,11 +349,11 @@
           </div>
         </div>
 
-        <div class="flex flex-col px-8 lg:p-none lg:flex-row justify-between items-center lg:items-start">
+        <div class="flex flex-col pb-8 px-8 lg:p-none lg:flex-row justify-between items-center lg:items-start">
 
           <div class="mb-4 lg:mb-0 w-full lg:w-1/5 lg:pr-4">
             <img class="rounded-3xl w-19/20 mx-auto mb-2" src="img/recorders.png" alt="a reel-to-reel recorder">
-            <h3 class="text-center text-5xl lg:text-2xl xl:text-3xl font-buf-bold mb-4">Recorders</h3>
+            <h3 class="text-center text-4xl sm:text-5xl lg:text-2xl xl:text-3xl font-buf-bold mb-4">Recorders</h3>
 
             <h4 class="text-2xl text-color-red font-mont uppercase">Consoles</h4>
             <ul class="mb-4 list-disc list-inside">
@@ -370,7 +374,7 @@
 
           <div class="mb-4 lg:mb-0 w-full lg:w-1/5 lg:pr-4">
             <img class="rounded-3xl w-19/20 mx-auto mb-2" src="img/instruments.png" alt="hanging guitars">
-            <h3 class="text-center text-5xl lg:text-2xl xl:text-3xl font-buf-bold mb-4">Instruments</h3>
+            <h3 class="text-center text-4xl sm:text-5xl lg:text-2xl xl:text-3xl font-buf-bold mb-4">Instruments</h3>
 
             <h4 class="text-2xl text-color-red font-mont uppercase">Guitars</h4>
             <ul class="mb-4 list-disc list-inside">
@@ -411,7 +415,7 @@
 
           <div class="mb-4 lg:mb-0 w-full lg:w-1/5 lg:pr-4">
             <img class="rounded-3xl w-19/20 mx-auto mb-2" src="img/amps.png" alt="amplifiers and speaker cabinets">
-            <h3 class="text-center text-5xl lg:text-2xl xl:text-3xl font-buf-bold mb-4">Amps</h3>
+            <h3 class="text-center text-4xl sm:text-5xl lg:text-2xl xl:text-3xl font-buf-bold mb-4">Amps</h3>
             <h4 class="text-2xl text-color-red font-mont uppercase">Guitar Amps</h4>
             <ul class="mb-4 list-disc list-inside">
               <li>Fender Showman</li>
@@ -457,7 +461,7 @@
 
           <div class="mb-4 lg:mb-0 w-full lg:w-1/5 lg:pr-4">
             <img class="rounded-3xl w-19/20 mx-auto mb-2" src="img/outboard.png" alt="outboard effects">
-            <h3 class="text-center text-5xl lg:text-2xl xl:text-3xl font-buf-bold mb-4">Outboard</h3>
+            <h3 class="text-center text-4xl sm:text-5xl lg:text-2xl xl:text-3xl font-buf-bold mb-4">Outboard</h3>
             <h4 class="text-2xl text-color-red font-mont uppercase">Preamps & Channel Strips</h4>
             <ul class="mb-4 list-disc list-inside">
               <li>2 Capi VP28</li>
@@ -515,7 +519,7 @@
 
           <div class="w-full lg:w-1/5 lg:pr-4">
             <img class="rounded-3xl w-19/20 mx-auto mb-2" src="img/microphones.png" alt="a shelf of microphones">
-            <h3 class="text-center text-5xl lg:text-2xl xl:text-3xl font-buf-bold mb-4">Microphones</h3>
+            <h3 class="text-center text-4xl sm:text-5xl lg:text-2xl xl:text-3xl font-buf-bold mb-4">Microphones</h3>
 
             <h4 class="text-2xl text-color-red font-mont uppercase">Condenser</h4>
             <ul class="mb-4 list-disc list-inside">

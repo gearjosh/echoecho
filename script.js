@@ -1,18 +1,23 @@
 function currentImage(n) {
   clearTimeout(timeoutID);
-  showImages((galleryIndex = n));
+  showImages(galleryIndex = n);
+}
+
+function switchImage(n) {
+  clearTimeout(timeoutID);
+  showImages(galleryIndex += n)
 }
 
 function showImages(n) {
   let i;
   let images = document.getElementsByClassName("gallery");
   let dots = document.getElementsByClassName("dot-gallery");
-  if (n) {
+  if (n >= 1 || n < 1) {
     if (n > images.length) {
       galleryIndex = 1;
     }
     if (n < 1) {
-      galleryIndex = slides.length;
+      galleryIndex = images.length;
     }
   } else {
     galleryIndex++;
@@ -28,8 +33,7 @@ function showImages(n) {
   }
   images[galleryIndex - 1].style.display = "flex";
   dots[galleryIndex - 1].className += " dot-md";
-  console.log('dots[galleryIndex -1].className: ', dots[galleryIndex -1].className)
-  timeoutID = setTimeout(showImages, 5000);
+  timeoutID = setTimeout(showImages, 6000);
 }
 
 // click listeners

@@ -59,11 +59,6 @@ button:hover {
   display: inline-block;
 }
 
-.dot-gallery:hover {
-  background-color: #A67D03;
-  transition: background-color 0ms;
-}
-
 .dot-lg {
   width: 2.5rem;
   height: 2.5rem;
@@ -95,5 +90,13 @@ button:hover {
 
   100% {
     opacity: 1;
+  }
+}
+
+@media (hover:hover) {
+  .dot-gallery:hover {
+    background-color: #A67D03;
+    color: #8C251C;
+    transition: background-color 0ms;
   }
 }
