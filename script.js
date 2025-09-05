@@ -11,7 +11,9 @@ function switchImage(n) {
 function showImages(n) {
   let i;
   let images = document.getElementsByClassName("gallery");
+  galleryTotal = images.length;
   let dots = document.getElementsByClassName("dot-gallery");
+
   if (n >= 1 || n < 1) {
     if (n > images.length) {
       galleryIndex = 1;
@@ -33,6 +35,7 @@ function showImages(n) {
   }
   images[galleryIndex - 1].style.display = "flex";
   dots[galleryIndex - 1].className += " dot-md";
+  $("#galleryNum").text((galleryIndex) + "/" + galleryTotal) 
   timeoutID = setTimeout(showImages, 6000);
 }
 
@@ -42,4 +45,5 @@ function showImages(n) {
 // initialize the first testimonial
 let galleryIndex = 0;
 let timeoutID;
+let galleryTotal;
 showImages();

@@ -49,7 +49,7 @@
     <div class="p-4 container mx-auto">
       <div class="flex flex-col lg:flex-row justify-center lg:justify-between items-center mb-4 lg:space-x-4">
         <div class="flex flex-col items-center mb-4 lg:mb-0">
-          <img class="aspect-4/3 lg:max-h-100 rounded-t-3xl" src="img/recording.png"
+          <img class="aspect-4/3 object-cover lg:max-h-100 rounded-t-3xl" src="img/recording.png"
             alt="a drum kit inside Echo Echo recording studio">
           <div
             class="flex flex-row justify-around items-center text-4xl sm:text-5xl text-color-green text-center bg-color-orange rounded-b-3xl py-2 w-full font-magic">
@@ -74,7 +74,7 @@
         </div>
 
         <div class="flex flex-col items-center mb-4 lg:mb-0">
-          <img class="aspect-4/3 lg:max-h-100 rounded-t-3xl" src="img/production.png"
+          <img class="aspect-4/3 object-cover lg:max-h-100 rounded-t-3xl" src="img/production.png"
             alt="a Moog and a Roland synthesizer inside Echo Echo recording studio">
           <div
             class="flex flex-row justify-around items-center text-4xl sm:text-5xl text-color-green text-center bg-color-orange rounded-b-3xl py-2 w-full font-magic">
@@ -99,7 +99,7 @@
         </div>
 
         <div class="flex flex-col items-center">
-          <img class="aspect-4/3 lg:max-h-100 rounded-t-3xl" src="img/rehearsal.png"
+          <img class="aspect-4/3 object-cover lg:max-h-100 rounded-t-3xl" src="img/rehearsal.png"
             alt="a rehearsal space with various instruments inside Echo Echo recording studio">
           <div
             class="flex flex-row justify-around items-center text-4xl sm:text-5xl text-color-green text-center bg-color-orange rounded-b-3xl py-2 w-full font-magic">
@@ -182,7 +182,7 @@
       </div>
 
       <!-- Image Gallery -->
-      <div class="bg-color-orange p-8 text-lg rounded-3xl mb-4">
+      <div class="bg-color-orange p-4 md:p-8 text-lg rounded-3xl mb-4  max-h-1vh">
 
         <div class="flex flex-row justify-center sm:space-x-8">
           <div class="hidden sm:flex flex-row h-10 justify-start space-y-2 space-x-2">
@@ -323,6 +323,7 @@
 
         <div class="flex md:hidden flex-row justify-around h-8 items-end space-x-2 bg-color-orange mt-6 text-color-green font-magic text-4xl">
           <span class="size-10 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red text-center" onclick="switchImage(-1)"><</span>
+          <span id="galleryNum" class="text-center w-1/3"></span>
           <span class="size-10 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red text-center" onclick="switchImage(1)">></span>
         </div>
       </div>
