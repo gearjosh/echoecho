@@ -57,6 +57,7 @@ $("img").not("#logoText").click(function () {
   } else {
     modal.showModal();
   }
+  $("body").toggleClass("overflow-hidden")
 });
 
 // initialize the first testimonial
