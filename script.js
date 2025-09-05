@@ -1,11 +1,11 @@
 function currentImage(n) {
   clearTimeout(timeoutID);
-  showImages(galleryIndex = n);
+  showImages((galleryIndex = n));
 }
 
 function switchImage(n) {
   clearTimeout(timeoutID);
-  showImages(galleryIndex += n)
+  showImages((galleryIndex += n));
 }
 
 function showImages(n) {
@@ -35,12 +35,29 @@ function showImages(n) {
   }
   images[galleryIndex - 1].style.display = "flex";
   dots[galleryIndex - 1].className += " dot-md";
-  $("#galleryNum").text((galleryIndex) + "/" + galleryTotal) 
+  $("#galleryNum").text(galleryIndex + "/" + galleryTotal);
   timeoutID = setTimeout(showImages, 6000);
 }
 
 // click listeners
 // add one to show any clicked image in a modal
+$("img").not("#logoText").click(function () {
+  const source = $(this).attr("src");
+  const altText = $(this).attr("alt");
+  const modal = document.getElementById("modal");
+
+  $("#focusImage").attr({
+    src: source,
+    alt: altText,
+  });
+  $("#caption").text(altText);
+
+  if ($(this).attr("id") == "focusImage") {
+    modal.close();
+  } else {
+    modal.showModal();
+  }
+});
 
 // initialize the first testimonial
 let galleryIndex = 0;
