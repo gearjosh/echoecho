@@ -64,7 +64,7 @@ $("img")
 
 // stop scrolling on body when dialog open
 document.getElementById("modal").addEventListener("close", () => {
-  $("body").removeClass("overflow-hidden")
+  document.body.classList.remove("overflow-hidden");
 });
 
 // initialize the first testimonial
