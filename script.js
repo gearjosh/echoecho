@@ -41,23 +41,30 @@ function showImages(n) {
 
 // click listeners
 // add one to show any clicked image in a modal
-$("img").not("#logoText").click(function () {
-  const source = $(this).attr("src");
-  const altText = $(this).attr("alt");
-  const modal = document.getElementById("modal");
+$("img")
+  .not("#logoText")
+  .click(function () {
+    const source = $(this).attr("src");
+    const altText = $(this).attr("alt");
+    const modal = document.getElementById("modal");
 
-  $("#focusImage").attr({
-    src: source,
-    alt: altText,
+    $("#focusImage").attr({
+      src: source,
+      alt: altText,
+    });
+    $("#caption").text(altText);
+
+    if ($(this).attr("id") == "focusImage") {
+      modal.close();
+    } else {
+      modal.showModal();
+      $("body").addClass("overflow-hidden")
+    }
   });
-  $("#caption").text(altText);
 
-  if ($(this).attr("id") == "focusImage") {
-    modal.close();
-  } else {
-    modal.showModal();
-  }
-  $("body").toggleClass("overflow-hidden")
+// stop scrolling on body when dialog open
+document.getElementById("modal").addEventListener("close", () => {
+  $("body").removeClass("overflow-hidden")
 });
 
 // initialize the first testimonial
