@@ -29,7 +29,7 @@
     </form>
   </dialog>
 
-  <section
+  <nav
     class="text-color-yellow bg-color-red h-16 sm:h-20 w-full flex flex-row justify-between items-end pr-4 pl-3 pb-4 sticky top-0 z-10"
     id="header">
     <a href="index.html" class=""><img id="logoText" class="object-contain h-7 sm:h-13" src="img/echoecho_horiz_text.png"
@@ -38,10 +38,10 @@
       <a class="ml-4 sm:ml-8" href="about.html">About</a>
       <a class="ml-4 sm:ml-8" href="contact.html">Contact</a>
     </div>
-  </section>
+  </nav>
 
-  <section id="home">
-    <div
+  <main id="home">
+    <header
       class="bg-[url(img/banner.png)] bg-cover bg-center flex flex-col justify-between text-center text-shadow-black w-full h-80 sm:h-120 p-8">
       <h1 class="text-5xl sm:text-6xl md:text-8xl text-color-yellow font-mont text-shadow-lg/50 uppercase mb-4">
         Echo Echo Recording
@@ -49,10 +49,10 @@
       <h2 class="text-2xl sm:text-4xl md:text-5xl text-color-orange font-magic text-shadow-sm/50">
         vintage music production for a modern world
       </h2>
-    </div>
+    </header>
 
     <div class="p-4 container mx-auto">
-      <div class="flex flex-col lg:flex-row justify-center lg:justify-between items-center mb-4 lg:space-x-4">
+      <section class="flex flex-col lg:flex-row justify-center lg:justify-between items-center mb-4 lg:space-x-4">
         <div class="flex flex-col items-center mb-4 lg:mb-0">
           <img class="aspect-4/3 object-cover lg:max-h-100 rounded-t-3xl" src="img/recording.png"
             alt="a drum kit inside Echo Echo recording studio">
@@ -66,7 +66,7 @@
               <div class="dot-xs bg-color-red self-center"></div>
             </div>
 
-            <h4>Recording</h4>
+            <h3>Recording</h3>
 
             <div class="flex lg:hidden xl:flex flex-row space-x-1 h-8">
               <div class="xl:hidden 2xl:block dot-xs bg-color-red self-center"></div>
@@ -91,7 +91,7 @@
               <div class="dot-sm bg-color-red self-start"></div>
             </div>
 
-            <h4>Production</h4>
+            <h3>Production</h3>
 
             <div class="flex lg:hidden xl:flex flex-row space-x-1 h-8">
               <div class="dot-sm bg-color-red self-center"></div>
@@ -116,7 +116,7 @@
               <div class="dot-xs bg-color-red self-end"></div>
             </div>
 
-            <h4>Rehearsal</h4>
+            <h3>Rehearsal</h3>
 
             <div class="flex lg:hidden xl:flex flex-row space-x-1 h-8">
               <div class="xl:hidden 2xl:block dot-xs bg-color-red self-center"></div>
@@ -127,9 +127,9 @@
 
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="bg-color-green text-[#ddd] py-8 px-12 text-xl rounded-3xl mb-4">
+      <section class="bg-color-green text-[#ddd] py-8 px-12 text-xl rounded-3xl mb-4">
 
         <div class="flex flex-row justify-center items-center">
           <div class="hidden sm:flex flex-col lg:flex-row lg:h-10 justify-start space-y-2 lg:space-x-2 px-4 py-3">
@@ -184,10 +184,10 @@
             Recording.
           </p>
         </div>
-      </div>
+      </section>
 
       <!-- Image Gallery -->
-      <div class="bg-color-orange p-4 md:p-8 text-lg rounded-3xl mb-4  max-h-1vh">
+      <section class="bg-color-orange p-4 md:p-8 text-lg rounded-3xl mb-4  max-h-1vh">
 
         <div class="flex flex-row justify-center sm:space-x-8">
           <div class="hidden sm:flex flex-row h-10 justify-start space-y-2 space-x-2">
@@ -331,10 +331,10 @@
           <span id="galleryNum" class="text-center w-1/3"></span>
           <span class="size-10 transition-all transition-discrete duration-400 ease-in-out rounded-full dot-gallery cursor-pointer bg-color-red text-center" onclick="switchImage(1)">></span>
         </div>
-      </div>
+      </section>
 
       <!-- Equipment -->
-      <div class="bg-color-yellow py-8 sm:py-none px-4 text-lg lg:text-sm rounded-3xl mb-4">
+      <section class="bg-color-yellow py-8 sm:py-none px-4 text-lg lg:text-sm rounded-3xl mb-4">
         <div class="flex flex-row justify-center sm:space-x-8">
           <div class="hidden sm:flex flex-row h-10 justify-start space-y-2 space-x-2">
             <div class="hidden md:block dot-lg bg-color-orange"></div>
@@ -596,11 +596,11 @@
             <div class="dot-xs bg-color-orange self-start"></div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
-  </section>
+  </main>
 
-  <section id="footer" class="bg-color-red text-color-yellow h-20 w-full">
+  <footer id="footer" class="bg-color-red text-color-yellow h-20 w-full">
     <div class="container flex flex-row justify-between items-center p-4 mx-auto h-full">
       <p class="font-mont uppercase text-3xl"><a href="contact.html">Book a tour!</a></p>
       <div class="flex flex-row justify-center items-center space-x-2">
@@ -612,7 +612,7 @@
             src="img/youtube_white_28dp.png" alt="YouTube"></a>
       </div>
     </div>
-  </section>
+  </footer>
 
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>

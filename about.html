@@ -1,47 +1,47 @@
 <!DOCTYPE html>
 <html>
-  
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="img/favicon.ico" rel="shortcut icon" type="img/jpeg">
-    <link rel="stylesheet" href="fonts/buffon/stylesheet.css" type="text/css" media="all">
-    <link rel="stylesheet" href="fonts/munson/stylesheet.css" type="text/css" media="all">
-    <link rel="stylesheet" href="fonts/supermagic/stylesheet.css" type="text/css" media="all">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link href="colors.css" rel="stylesheet" type="text/css" media="all">
-    <link href="styles.css" rel="stylesheet" type="text/css" media="all">
-    <title>About Echo Echo Recording</title>
-  </head>
 
-  <body class="bg-color-pink text-color-black font-munson-italic hyphens-auto">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="img/favicon.ico" rel="shortcut icon" type="img/jpeg">
+  <link rel="stylesheet" href="fonts/buffon/stylesheet.css" type="text/css" media="all">
+  <link rel="stylesheet" href="fonts/munson/stylesheet.css" type="text/css" media="all">
+  <link rel="stylesheet" href="fonts/supermagic/stylesheet.css" type="text/css" media="all">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link href="colors.css" rel="stylesheet" type="text/css" media="all">
+  <link href="styles.css" rel="stylesheet" type="text/css" media="all">
+  <title>About Echo Echo Recording</title>
+</head>
 
-    <!-- modal to display images -->
-    <dialog id="modal" class="m-auto bg-color-olive pb-4 rounded-b-3xl" closedby="any">
-      <form class="flex flex-col justify-center items-center" method="dialog">
-        <img id="focusImage" src="" alt="" class="max-h-[calc(100vh-11rem)] rounded-xs object-contain">
-        <p id="caption" class="text-center w-full p-4"></p>
-        <button type="submit"
-          class="rounded-full outline-none w-1/4 p-4 bg-color-black text-color-white mx-auto cursor-pointer">Close</button>
-      </form>
-    </dialog>
-    
-    <section
-      class="text-color-yellow bg-color-red h-16 sm:h-20 w-full flex flex-row justify-between items-end pr-4 pl-3 pb-4 sticky top-0 z-10"
-      id="header">
-      <a href="index.html" class=""><img id="logoText" class="object-contain h-7 sm:h-13" src="img/echoecho_horiz_text.png"
-          alt="Echo Echo's logo text"></a>
-      <div class="flex flex-row uppercase sm:text-lg md:text-2xl font-buf-bold">
-        <a class="ml-4 sm:ml-8" href="about.html">About</a>
-        <a class="ml-4 sm:ml-8" href="contact.html">Contact</a>
-      </div>
-    </section>
+<body class="bg-color-pink text-color-black font-munson-italic hyphens-auto">
 
-    <section id="about">
-      <!-- <div
+  <!-- modal to display images -->
+  <dialog id="modal" class="m-auto bg-color-olive pb-4 rounded-b-3xl" closedby="any">
+    <form class="flex flex-col justify-center items-center" method="dialog">
+      <img id="focusImage" src="" alt="" class="max-h-[calc(100vh-11rem)] rounded-xs object-contain">
+      <p id="caption" class="text-center w-full p-4"></p>
+      <button type="submit"
+        class="rounded-full outline-none w-1/4 p-4 bg-color-black text-color-white mx-auto cursor-pointer">Close</button>
+    </form>
+  </dialog>
+
+  <nav
+    class="text-color-yellow bg-color-red h-16 sm:h-20 w-full flex flex-row justify-between items-end pr-4 pl-3 pb-4 sticky top-0 z-10"
+    id="header">
+    <a href="index.html" class=""><img id="logoText" class="object-contain h-7 sm:h-13"
+        src="img/echoecho_horiz_text.png" alt="Echo Echo's logo text"></a>
+    <div class="flex flex-row uppercase sm:text-lg md:text-2xl font-buf-bold">
+      <a class="ml-4 sm:ml-8" href="about.html">About</a>
+      <a class="ml-4 sm:ml-8" href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <main id="about">
+    <!-- <div
         class="bg-[url(img/banner.png)] bg-cover bg-center flex flex-col justify-between text-center text-shadow-black h-120 p-8 mb-4">
         <h1 class="text-5xl sm:text-6xl md:text-8xl text-color-yellow font-mont text-shadow-lg/50 uppercase mb-4">
           About Echo Echo
@@ -51,186 +51,196 @@
         </h2>
       </div> -->
 
-      <div class="container p-4 mx-auto">
-        <div class="bg-color-orange rounded-3xl p-8 my-4">
-          <div class="flex flex-row justify-center sm:space-x-8">
-            <div class="hidden sm:flex flex-row h-10 justify-start space-y-2 space-x-2">
-              <div class="dot-xs bg-color-black self-center"></div>
-              <div class="dot-md bg-color-black"></div>
-              <div class="hidden md:block dot-lg bg-color-black"></div>
-              <div class="dot-sm bg-color-black self-end"></div>
-              <div class="dot-xs bg-color-black self-start"></div>
-            </div>
-          
-            <h2 class="text-center text-5xl sm:text-6xl text-color-olive font-magic mb-4">About Us</h2>
-          
-            <div class="hidden sm:flex flex-row h-10 justify-start space-y-2 space-x-2">
-              <div class="dot-xs bg-color-black self-end"></div>
-              <div class="dot-xs bg-color-black self-start"></div>
-              <div class="hidden md:block dot-md bg-color-black self-end"></div>
-              <div class="dot-lg bg-color-black self-start"></div>
-              <div class="dot-sm bg-color-black self-center"></div>
-            </div>
+    <div class="container p-4 mx-auto">
+      <section class="bg-color-orange rounded-3xl p-8 my-4">
+        <div class="flex flex-row justify-center sm:space-x-8">
+          <div class="hidden sm:flex flex-row h-10 justify-start space-y-2 space-x-2">
+            <div class="dot-xs bg-color-black self-center"></div>
+            <div class="dot-md bg-color-black"></div>
+            <div class="hidden md:block dot-lg bg-color-black"></div>
+            <div class="dot-sm bg-color-black self-end"></div>
+            <div class="dot-xs bg-color-black self-start"></div>
           </div>
 
-          <img class="aspect-19/9 object-cover rounded-3xl mb-8 mx-auto" src="img/about_us.jpeg" alt="the inside of Echo Echo">
-          
-          <div class="text-xl">
-            <p class="mb-4">
-              Located in the former Type Foundry recording space that has seen artists over the years such as M. Ward, Sleater Kinney,
-              The Decemberists, Red Fang and Y La Bamba, echo echo is one of the largest recording spaces in the Portland metro area.
-              We offer over 2000 Sqft including our tracking room for recording and rehearsal, a large iso room, small iso booth and
-              extensive control room with some of the best equipment available.
-            </p>
-            
-            <p class="mb-4">
-              What sets Echo Echo apart is the vast collection of instruments and amplifiers available for your session along with one
-              of the best mic lockers in town. Sporting more vintage tube amps and guitars you can shake a stick at, there is no tone
-              unreachable.
-            </p>
-            
-            <p class="mb-4">
-              Our large control room is comfortable and outfitted with a modified Yamaha PM2000 at the center, flanked by some of the
-              best outboard compressors, EQs, preamps and effects to help craft your sound and get your record sounding its best.
-            </p>
-            
-            <p class="mb-4">
-              We offer 24 track tape recording via our MCI JH24 and digital with both Pro Tools and Logic available.
-            </p>
-            
-            <p>
-              Email us to book your session today!
-            </p>
-          </div>
-        </div>
-  
-      <div class="bg-color-yellow rounded-3xl p-8 mb-4">
-          <div class="flex flex-row justify-center items-center sm:space-x-8">
-            <div class="hidden sm:flex flex-row h-10 justify-start space-y-2 space-x-2">
-              <div class="hidden md:block dot-lg bg-color-orange"></div>
-              <div class="dot-xs bg-color-orange self-center"></div>
-              <div class="dot-md bg-color-orange"></div>
-              <div class="dot-sm bg-color-orange self-end"></div>
-              <div class="dot-xs bg-color-orange self-start"></div>
-            </div>
-          
-            <h2 class="text-center text-5xl sm:text-6xl text-color-red font-magic mb-4">Our Engineers</h2>
-          
-            <div class="hidden sm:flex flex-row h-10 justify-start space-y-2 space-x-2">
-              <div class="dot-xs bg-color-orange self-end"></div>
-              <div class="dot-lg bg-color-orange self-start"></div>
-              <div class="dot-xs bg-color-orange self-start"></div>
-              <div class="hidden md:block dot-md bg-color-orange self-end"></div>
-              <div class="dot-sm bg-color-orange self-center"></div>
-            </div>
-          </div>
-  
-          <div class="flex flex-col w-full lg:flex-row space-x-4 text-center">
-            <div>
-              <img class="rounded-3xl object-cover aspect-5/3 mb-4" src="img/matt_t.jpg" alt="Matt Thomson">
-              <p class="text-color-red uppercase font-mont text-2xl">Matt Thomson</p>
-              <p class="mb-8 lg:mb-0">Engineer/Producer/Manager</p>
-            </div>
-    
-            <div>
-              <img class="rounded-3xl object-cover aspect-5/3 mb-4" src="img/matt_z.jpg" alt="Matthew Zeltzer">
-              <p class="text-color-red uppercase font-mont text-2xl">Matthew Zeltzer</p>
-              <p class="">Producer/Engineer/Manager</p>
-            </div>
-          </div>
-      </div>
-  
-        <div class="bg-color-green rounded-3xl p-8 mb-4">
-          
-          <div class="flex flex-row justify-center items-center">
-            <div class="hidden sm:flex flex-row justify-start space-y-2 space-x-2 px-4 py-3">
-              <div class="dot-xs bg-color-yellow self-start"></div>
-              <div class="dot-lg bg-color-yellow self-start"></div>
-              <div class="dot-md bg-color-yellow"></div>
-              <div class="dot-sm bg-color-yellow self-end"></div>
-            </div>
-            <div class="text-5xl md:text-5xl sm:text-6xl text-color-red uppercase w-max mx-4">
-              
-              <h2 class="font-magic ">Clients</h2>
-              
-            </div>
-            <div class="hidden sm:flex flex-row justify-center space-y-2 space-x-2 px-4 py-3">
-              <div class="dot-lg bg-color-yellow"></div>
-              <div class="dot-xs bg-color-yellow self-end"></div>
-              <div class="dot-md bg-color-yellow"></div>
-              <div class="dot-sm bg-color-yellow self-end"></div>
-              <div class="dot-xs bg-color-yellow self-start"></div>
-            </div>
-          </div>
-          <div class="flex flex-col lg:flex-row justify-around space-x-4 text-center lg:text-left">
-            <ul>
-              <li>Abronia</li>
-              <li>Margo Cilker</li>
-              <li>MAITA</li>
-              <li>Night Herron</li>
-              <li>Christa Buckland</li>
-              <li>Stoner Control</li>
-              <li>Matt Mitchell</li>
-              <li>Sleater-Kinney</li>
-              <li>Shaylee</li>
-              <li>Girlfiend</li>
-              <li>Babe Ruthlass</li>
-              <li>Holy Basil</li>
-              <li>Kassi Valazza</li>
-              <li>Tabor</li>
-              <li>Creature Party</li>
-              <li>Federale</li>
-              <li>The Shivas</li>
-              <li>Jenny Don't and the Spurs</li>
-              <li>Smile Pile</li>
-              <li>Tenants</li>
-              <li>Chad Bault</li>
-            </ul>
-            <ul>
-              <li>Henry Chadwick</li>
-              <li>Sunday State</li>
-              <li>Roselit Bone</li>
-              <li>Olivia Awbrey</li>
-              <li>The Hague</li>
-              <li>Cicada Cycle</li>
-              <li>Léna Bartels</li>
-              <li>Smile Pile</li>
-              <li>Pale Violet</li>
-              <li>Blisser</li>
-              <li>Babe Ruthless</li>
-              <li>Tamar Berk</li>
-              <li>Malachi Graham</li>
-              <li>Heavy Totals</li>
-              <li>Erisy Watt</li>
-              <li>Bridal Veil</li>
-              <li>Valley Sun</li>
-              <li>French International School</li>
-              <li>Sam Greenspan</li>
-              <li>The Saying and the Said</li>
-              <li>Heavy Totals</li>
-            </ul>
-            <div class="flex flex-col justify-center items-center"><img class="w-max h-max mx-auto bg-color-white aspect-1/1 rounded-3xl mt-4" src="img/echoecho_logo_no_bg.png" alt="Echo Echo's logo"></div>
-          </div>
-        </div>
-      </div>
-    </section>
+          <h2 class="text-center text-5xl sm:text-6xl text-color-olive font-magic mb-4">About Us</h2>
 
-    <section id="footer" class="bg-color-red text-color-yellow h-20 w-full">
-      <div class="container flex flex-row justify-between items-center p-4 mx-auto h-full">
-        <p class="font-mont uppercase text-3xl"><a href="contact.html">Book a tour!</a></p>
-        <div class="flex flex-row justify-center items-center space-x-2">
-          <a href="https://www.instagram.com/echoechorecording" target="_blank"><img class="rounded-full bg-color-olive"
-              src="img/instagram_white_28dp.png" alt="Instagram"></a>
-          <a href="https://www.facebook.com/echoechopdx" target="_blank"><img class="rounded-full bg-color-olive"
-              src="img/facebook_white_28dp.png" alt="Facebook"></a>
-          <a href="https://www.youtube.com/echoechorecording" target="_blank"><img class="rounded-full bg-color-olive"
-              src="img/youtube_white_28dp.png" alt="YouTube"></a>
+          <div class="hidden sm:flex flex-row h-10 justify-start space-y-2 space-x-2">
+            <div class="dot-xs bg-color-black self-end"></div>
+            <div class="dot-xs bg-color-black self-start"></div>
+            <div class="hidden md:block dot-md bg-color-black self-end"></div>
+            <div class="dot-lg bg-color-black self-start"></div>
+            <div class="dot-sm bg-color-black self-center"></div>
+          </div>
         </div>
-      </div>
-    </section>
 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
-  </body>
-  
+        <img class="aspect-19/9 object-cover rounded-3xl mb-8 mx-auto" src="img/about_us.jpeg"
+          alt="the inside of Echo Echo">
+
+        <div class="text-xl">
+          <p class="mb-4">
+            Located in the former Type Foundry recording space that has seen artists over the years such as M. Ward,
+            Sleater Kinney,
+            The Decemberists, Red Fang and Y La Bamba, echo echo is one of the largest recording spaces in the Portland
+            metro area.
+            We offer over 2000 Sqft including our tracking room for recording and rehearsal, a large iso room, small iso
+            booth and
+            extensive control room with some of the best equipment available.
+          </p>
+
+          <p class="mb-4">
+            What sets Echo Echo apart is the vast collection of instruments and amplifiers available for your session
+            along with one
+            of the best mic lockers in town. Sporting more vintage tube amps and guitars you can shake a stick at, there
+            is no tone
+            unreachable.
+          </p>
+
+          <p class="mb-4">
+            Our large control room is comfortable and outfitted with a modified Yamaha PM2000 at the center, flanked by
+            some of the
+            best outboard compressors, EQs, preamps and effects to help craft your sound and get your record sounding
+            its best.
+          </p>
+
+          <p class="mb-4">
+            We offer 24 track tape recording via our MCI JH24 and digital with both Pro Tools and Logic available.
+          </p>
+
+          <p>
+            Email us to book your session today!
+          </p>
+        </div>
+      </section>
+
+      <section class="bg-color-yellow rounded-3xl p-8 mb-4">
+        <div class="flex flex-row justify-center items-center sm:space-x-8">
+          <div class="hidden sm:flex flex-row h-10 justify-start space-y-2 space-x-2">
+            <div class="hidden md:block dot-lg bg-color-orange"></div>
+            <div class="dot-xs bg-color-orange self-center"></div>
+            <div class="dot-md bg-color-orange"></div>
+            <div class="dot-sm bg-color-orange self-end"></div>
+            <div class="dot-xs bg-color-orange self-start"></div>
+          </div>
+
+          <h2 class="text-center text-5xl sm:text-6xl text-color-red font-magic mb-4">Our Engineers</h2>
+
+          <div class="hidden sm:flex flex-row h-10 justify-start space-y-2 space-x-2">
+            <div class="dot-xs bg-color-orange self-end"></div>
+            <div class="dot-lg bg-color-orange self-start"></div>
+            <div class="dot-xs bg-color-orange self-start"></div>
+            <div class="hidden md:block dot-md bg-color-orange self-end"></div>
+            <div class="dot-sm bg-color-orange self-center"></div>
+          </div>
+        </div>
+
+        <div class="flex flex-col w-full lg:flex-row space-x-4 text-center">
+          <div>
+            <img class="rounded-3xl object-cover aspect-5/3 mb-4" src="img/matt_t.jpg" alt="Matt Thomson">
+            <p class="text-color-red uppercase font-mont text-2xl">Matt Thomson</p>
+            <p class="mb-8 lg:mb-0">Engineer/Producer/Manager</p>
+          </div>
+
+          <div>
+            <img class="rounded-3xl object-cover aspect-5/3 mb-4" src="img/matt_z.jpg" alt="Matthew Zeltzer">
+            <p class="text-color-red uppercase font-mont text-2xl">Matthew Zeltzer</p>
+            <p class="">Producer/Engineer/Manager</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-color-green rounded-3xl p-8 mb-4">
+
+        <div class="flex flex-row justify-center items-center">
+          <div class="hidden sm:flex flex-row justify-start space-y-2 space-x-2 px-4 py-3">
+            <div class="dot-xs bg-color-yellow self-start"></div>
+            <div class="dot-lg bg-color-yellow self-start"></div>
+            <div class="dot-md bg-color-yellow"></div>
+            <div class="dot-sm bg-color-yellow self-end"></div>
+          </div>
+          <div class="text-5xl md:text-5xl sm:text-6xl text-color-red uppercase w-max mx-4">
+
+            <h2 class="font-magic ">Clients</h2>
+
+          </div>
+          <div class="hidden sm:flex flex-row justify-center space-y-2 space-x-2 px-4 py-3">
+            <div class="dot-lg bg-color-yellow"></div>
+            <div class="dot-xs bg-color-yellow self-end"></div>
+            <div class="dot-md bg-color-yellow"></div>
+            <div class="dot-sm bg-color-yellow self-end"></div>
+            <div class="dot-xs bg-color-yellow self-start"></div>
+          </div>
+        </div>
+        <div class="flex flex-col lg:flex-row justify-around space-x-4 text-center lg:text-left">
+          <ul>
+            <li>Abronia</li>
+            <li>Margo Cilker</li>
+            <li>MAITA</li>
+            <li>Night Herron</li>
+            <li>Christa Buckland</li>
+            <li>Stoner Control</li>
+            <li>Matt Mitchell</li>
+            <li>Sleater-Kinney</li>
+            <li>Shaylee</li>
+            <li>Girlfiend</li>
+            <li>Babe Ruthlass</li>
+            <li>Holy Basil</li>
+            <li>Kassi Valazza</li>
+            <li>Tabor</li>
+            <li>Creature Party</li>
+            <li>Federale</li>
+            <li>The Shivas</li>
+            <li>Jenny Don't and the Spurs</li>
+            <li>Smile Pile</li>
+            <li>Tenants</li>
+            <li>Chad Bault</li>
+          </ul>
+          <ul>
+            <li>Henry Chadwick</li>
+            <li>Sunday State</li>
+            <li>Roselit Bone</li>
+            <li>Olivia Awbrey</li>
+            <li>The Hague</li>
+            <li>Cicada Cycle</li>
+            <li>Léna Bartels</li>
+            <li>Smile Pile</li>
+            <li>Pale Violet</li>
+            <li>Blisser</li>
+            <li>Babe Ruthless</li>
+            <li>Tamar Berk</li>
+            <li>Malachi Graham</li>
+            <li>Heavy Totals</li>
+            <li>Erisy Watt</li>
+            <li>Bridal Veil</li>
+            <li>Valley Sun</li>
+            <li>French International School</li>
+            <li>Sam Greenspan</li>
+            <li>The Saying and the Said</li>
+            <li>Heavy Totals</li>
+          </ul>
+          <div class="flex flex-col justify-center items-center"><img
+              class="w-max h-max mx-auto bg-color-white aspect-1/1 rounded-3xl mt-4" src="img/echoecho_logo_no_bg.png"
+              alt="Echo Echo's logo"></div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer id="footer" class="bg-color-red text-color-yellow h-20 w-full">
+    <div class="container flex flex-row justify-between items-center p-4 mx-auto h-full">
+      <p class="font-mont uppercase text-3xl"><a href="contact.html">Book a tour!</a></p>
+      <div class="flex flex-row justify-center items-center space-x-2">
+        <a href="https://www.instagram.com/echoechorecording" target="_blank"><img class="rounded-full bg-color-olive"
+            src="img/instagram_white_28dp.png" alt="Instagram"></a>
+        <a href="https://www.facebook.com/echoechopdx" target="_blank"><img class="rounded-full bg-color-olive"
+            src="img/facebook_white_28dp.png" alt="Facebook"></a>
+        <a href="https://www.youtube.com/echoechorecording" target="_blank"><img class="rounded-full bg-color-olive"
+            src="img/youtube_white_28dp.png" alt="YouTube"></a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
 </html>
